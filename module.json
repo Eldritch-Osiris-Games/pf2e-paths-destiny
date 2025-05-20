@@ -1,0 +1,66 @@
+{
+	"id":"pf2e-paths-destiny",
+	"title":"Paths of Destiny",
+	"description": "New mythic character options featuring new mythic destinies.",
+	"manifest": "https://github.com/Eldritch-Osiris-Games/pf2e-paths-destiny/releases/latest/download/module.json",
+	"download": "https://github.com/Eldritch-Osiris-Games/pf2e-paths-destiny/releases/latest/download/pf2e-paths-destiny.zip",
+	"authors": [
+	{
+		"name":"Eldritch Osiris Games",
+		"flags":{}
+	}
+	],
+	"version":"1.0.0",
+	"packs":[
+	{
+		"label": "Character Building",
+		"name": "Destiny-Character-Building",
+		"path": "packs/destiny-character-building",
+		"system": "pf2e",
+		"type": "Item"
+	},
+	{
+		"label":"Effects",
+		"name":"Destiny-Effects",
+		"path":"packs/destiny-effects",
+		"system":"pf2e",
+		"type":"Item"
+	},
+	{
+		"label":"Journals",
+		"name":"Destiny-Journals",
+		"path":"packs/destiny-journals",
+		"system":"pf2e",
+		"type":"JournalEntry"
+	}],
+	"packFolders": [
+	{
+		"name":"Paths of Destiny",
+		"sorting": "a",
+		"packs":[
+		"Destiny-Character-Building",
+		"Destiny-Spells",
+		"Destiny-Effects",
+		"Destiny-Journals"
+		],
+		"color":null,
+		"folders":[]
+	}
+	],
+	"relationships": {
+		"systems": [
+		{
+			"id":"pf2e",
+			"type": "system",
+			"compatibility":{
+				"minimum": "6.12.0"
+		}
+	}
+	]
+	},
+	"compatibility": {
+		"minimum":"12",
+		"verified":"12"
+	}
+}
+		
