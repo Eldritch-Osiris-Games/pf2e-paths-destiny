@@ -10,7 +10,7 @@
 		"flags":{}
 	}
 	],
-	"version":"1.0.0",
+	"version":"2.0.0",
 	"packs":[
 	{
 		"label": "Character Building",
@@ -60,7 +60,7 @@
 	},
 	"compatibility": {
 		"minimum":"12",
-		"verified":"12"
+		"verified":"13"
 	}
 }
 		
